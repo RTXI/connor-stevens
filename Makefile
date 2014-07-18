@@ -1,4 +1,4 @@
-PLUGIN_NAME = connor-stevens
+PLUGIN_NAME = connor_stevens
 
 HEADERS = connor-stevens.h
 
