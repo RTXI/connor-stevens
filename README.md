@@ -5,7 +5,9 @@
 
 ![CS Model Neuron GUI](connor-stevens.png)
 
+<!--start-->
 The Connor Stevens model neuron is like the Hodgkin-Huxley neuron, but with slightly different kinetics for the fast sodium and potassium delayed-rectifier channels and an additional A-type potassium channel (Dayan and Abbott, Theoretical Neuroscience, Ch. 6). These changes give the Connor Stevens neuron Type I excitability such that it can achieve arbitrarily low spike rates. This feature may make this model more useful for testing custom modules than the Hodgkin-Huxley model neuron.
+<!--end-->
 
 ####Input Channels
 1. input(0) - Iapp : applied current  (A)
