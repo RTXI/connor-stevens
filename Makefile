@@ -1,8 +1,8 @@
-PLUGIN_NAME = connor_stevens
+PLUGIN_NAME = connorstevens
 
-HEADERS = connor-stevens.h
+HEADERS = connorstevens.h
 
-SOURCES = connor-stevens.cpp 
+SOURCES = connorstevens.cpp 
 
 LIBS = 
 
