@@ -209,8 +209,9 @@ ConnorStevens::ConnorStevens(void) : DefaultGUIModel("Connor Stevens", ::vars, :
 	"<p><b>Connor-Stevens:</b><br>This module simulates a Connor-Stevens model neuron.</p>");
 	createGUI(vars, num_vars);
 	initParameters();
-	update( INIT);
+	update( INIT );
 	refresh();
+	QTimer::singleShot(0, this, SLOT(resizeMe()));
 }
 
 ConnorStevens::~ConnorStevens(void) {}
