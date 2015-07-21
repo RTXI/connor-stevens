@@ -24,7 +24,6 @@ This is the Hodgkin-Huxley model plus an A-type potassium current.
 
 #include <connor-stevens.h>
 #include <math.h>
-#include <QtGui>
 
 // Model Functions
 
@@ -211,7 +210,7 @@ ConnorStevens::ConnorStevens(void) : DefaultGUIModel("Connor Stevens", ::vars, :
 	initParameters();
 	update( INIT );
 	refresh();
-	QTimer::singleShot(0, this, SLOT(resizeMe()));
+	resizeMe();
 }
 
 ConnorStevens::~ConnorStevens(void) {}
